@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Castoro';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/template-font-1.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/template-font-2.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(../fonts/template-font-3.ttf) format('truetype');
+}

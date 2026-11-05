@@ -1,0 +1,300 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a,
+.link-block .button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+.publication-hero {
+  margin-bottom: 4rem;
+  min-height: 76vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.publication-hero .hero-body {
+  align-items: center;
+  display: flex;
+  min-height: 76vh;
+  position: relative;
+  z-index: 2;
+}
+
+.publication-cover-video,
+.publication-cover-overlay {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.publication-cover-video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  z-index: 0;
+}
+
+.publication-cover-overlay {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.28) 42%,
+    rgba(0, 0, 0, 0.58)
+  );
+  z-index: 1;
+}
+
+.publication-hero .publication-title,
+.publication-hero .publication-authors,
+.publication-hero .publication-authors a {
+  color: #fff !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.48);
+}
+
+.publication-hero .button.is-dark {
+  background-color: rgba(20, 20, 20, 0.82);
+}
+
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+/* Tune the teaser video width here. Increase max-width for a larger video. */
+.teaser-container {
+  left: 50%;
+  max-width: 1180px;
+  position: relative;
+  transform: translateX(-50%);
+  width: 92vw;
+}
+
+#teaser {
+  display: block;
+  width: 100%;
+}
+
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.publication-authors {
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 0;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+.task-gallery-container {
+  width: min(96vw, 1500px);
+  max-width: none;
+}
+
+.simulation-task-gallery .column {
+  padding: 1rem;
+}
+
+.simulation-task-gallery video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.simulation-task-gallery .title {
+  margin-top: 0.75rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.real2sim-flow-figure {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 1.5rem;
+}
+
+.real2sim-data-collection {
+  margin-top: 1.5rem;
+}
+
+.real2sim-data-collection video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.real2sim-data-collection .title {
+  margin-top: 0.75rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.methodology-policy-figure {
+  display: block;
+  width: min(120%, 1100px);
+  max-width: none;
+  margin: 0 50%;
+  transform: translateX(-50%);
+}
+
+.methodology-result-figure {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .methodology-result-figure {
+    width: 100%;
+  }
+}
+
+
+.interpolation-panel {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.interpolation-panel .interpolation-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.interpolation-video-column {
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+#interpolation-image-wrapper {
+  width: 100%;
+}
+#interpolation-image-wrapper img {
+  border-radius: 5px;
+}
+
+/* Keep the original template; fit the supplied wide observation videos without cropping. */
+.task-gallery-container { max-width: 100%; }
+.vitacdex-observations video { aspect-ratio: 8 / 3; object-fit: contain; }
+.vitacdex-results-figure { width: 100%; }
+@media screen and (max-width: 768px) {
+  .methodology-policy-figure { width: 100%; max-width: 100%; margin: 0 auto; transform: none; }
+}
+
+/* Preserve the full frame of the original PPT demonstrations. */
+.vitacdex-ppt-gallery video { object-fit: contain; background: #f5f5f5; }

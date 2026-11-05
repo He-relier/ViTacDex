@@ -1,0 +1,812 @@
+{
+  "entry": "index.html",
+  "local_asset_references": 56,
+  "external_runtime_dependencies": 0,
+  "videos": [
+    {
+      "path": "static/videos/vitacdex/additional-objects.mp4",
+      "frames": 447,
+      "duration_seconds": 15.0,
+      "decode_errors": 0
+    },
+    {
+      "path": "static/videos/vitacdex/clutter.mp4",
+      "frames": 450,
+      "duration_seconds": 15.0,
+      "decode_errors": 0
+    },
+    {
+      "path": "static/videos/vitacdex/comparison.mp4",
+      "frames": 536,
+      "duration_seconds": 18.0,
+      "decode_errors": 0
+    },
+    {
+      "path": "static/videos/vitacdex/demo-x.mp4",
+      "frames": 478,
+      "duration_seconds": 23.9,
+      "decode_errors": 0
+    },
+    {
+      "path": "static/videos/vitacdex/demo-z.mp4",
+      "frames": 517,
+      "duration_seconds": 25.85,
+      "decode_errors": 0
+    },
+    {
+      "path": "static/videos/vitacdex/diverse-objects.mp4",
+      "frames": 447,
+      "duration_seconds": 14.966667,
+      "decode_errors": 0
+    },
+    {
+      "path": "static/videos/vitacdex/hero.mp4",
+      "frames": 240,
+      "duration_seconds": 12.0,
+      "decode_errors": 0
+    },
+    {
+      "path": "static/videos/vitacdex/occlusion.mp4",
+      "frames": 540,
+      "duration_seconds": 18.0,
+      "decode_errors": 0
+    },
+    {
+      "path": "static/videos/vitacdex/overview.mp4",
+      "frames": 1044,
+      "duration_seconds": 35.0,
+      "decode_errors": 0
+    },
+    {
+      "path": "static/videos/vitacdex/random-occlusion.mp4",
+      "frames": 540,
+      "duration_seconds": 18.0,
+      "decode_errors": 0
+    },
+    {
+      "path": "static/videos/vitacdex/supplementary.mp4",
+      "frames": 8205,
+      "duration_seconds": 273.5,
+      "decode_errors": 0
+    },
+    {
+      "slide": 9,
+      "video_number": 2,
+      "title": "Ball",
+      "source": "03_Mixed Demonstration/slide_09_video_02_vtp_x (1).mov",
+      "path": "static/videos/vitacdex/mixed-ball.mp4",
+      "frames": 948,
+      "duration_seconds": 31.6,
+      "decode_errors": 0
+    },
+    {
+      "slide": 9,
+      "video_number": 4,
+      "title": "Duck",
+      "source": "03_Mixed Demonstration/slide_09_video_04_Vtp_x (2).mov",
+      "path": "static/videos/vitacdex/mixed-duck.mp4",
+      "frames": 795,
+      "duration_seconds": 26.5,
+      "decode_errors": 0
+    },
+    {
+      "slide": 9,
+      "video_number": 5,
+      "title": "Pill Bottle",
+      "source": "03_Mixed Demonstration/slide_09_video_05_Vtp_z (3).mov",
+      "path": "static/videos/vitacdex/mixed-pill-bottle.mp4",
+      "frames": 911,
+      "duration_seconds": 30.366667,
+      "decode_errors": 0
+    },
+    {
+      "slide": 9,
+      "video_number": 6,
+      "title": "Elephant",
+      "source": "03_Mixed Demonstration/slide_09_video_06_vtp_z (2).mov",
+      "path": "static/videos/vitacdex/mixed-elephant.mp4",
+      "frames": 827,
+      "duration_seconds": 27.566667,
+      "decode_errors": 0
+    },
+    {
+      "slide": 10,
+      "video_number": 6,
+      "title": "Gum Container",
+      "source": "03_Mixed Demonstration/slide_10_video_06_Vtp_x (3).mov",
+      "path": "static/videos/vitacdex/mixed-gum-container.mp4",
+      "frames": 975,
+      "duration_seconds": 32.5,
+      "decode_errors": 0
+    },
+    {
+      "slide": 10,
+      "video_number": 1,
+      "title": "Dental Pick Container",
+      "source": "03_Mixed Demonstration/slide_10_video_01_Vtp_y (3).mov",
+      "path": "static/videos/vitacdex/mixed-dental-pick-container.mp4",
+      "frames": 952,
+      "duration_seconds": 31.733333,
+      "decode_errors": 0
+    },
+    {
+      "slide": 12,
+      "video_number": 1,
+      "title": "Glue Box (Palm Down)",
+      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_01_Vtp z.mov",
+      "path": "static/videos/vitacdex/difficult-glue-box-down.mp4",
+      "frames": 736,
+      "duration_seconds": 24.533333,
+      "decode_errors": 0
+    },
+    {
+      "slide": 12,
+      "video_number": 2,
+      "title": "Playing Card Box (Palm Up)",
+      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_02_4b0c777bf888e401173359505bf6107d_raw.mp4",
+      "path": "static/videos/vitacdex/difficult-playing-cards-up.mp4",
+      "frames": 706,
+      "duration_seconds": 23.533333,
+      "decode_errors": 0
+    },
+    {
+      "slide": 12,
+      "video_number": 4,
+      "title": "Playing Card Box (Palm Down)",
+      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_04_IMG_0785.mov",
+      "path": "static/videos/vitacdex/difficult-playing-cards-down.mp4",
+      "frames": 713,
+      "duration_seconds": 23.766667,
+      "decode_errors": 0
+    },
+    {
+      "slide": 12,
+      "video_number": 3,
+      "title": "Glue Box (Palm Up)",
+      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_03_7ecb7e08fc38d485a5fa8809248bf169_raw.mp4",
+      "path": "static/videos/vitacdex/difficult-glue-box-up.mp4",
+      "frames": 676,
+      "duration_seconds": 22.533333,
+      "decode_errors": 0
+    },
+    {
+      "slide": 14,
+      "video_number": 1,
+      "title": "Symmetrical Object",
+      "source": "05_Transparent & Symmetrical Object/slide_14_video_01_IMG_0652.mov",
+      "path": "static/videos/vitacdex/symmetrical-object.mp4",
+      "frames": 1524,
+      "duration_seconds": 50.8,
+      "decode_errors": 0
+    },
+    {
+      "slide": 14,
+      "video_number": 2,
+      "title": "Transparent Object",
+      "source": "05_Transparent & Symmetrical Object/slide_14_video_02_Video_best.mov",
+      "path": "static/videos/vitacdex/transparent-object.mp4",
+      "frames": 3690,
+      "duration_seconds": 123.0,
+      "decode_errors": 0
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 128,
+      "sha256": "60dba563683d15697718c7ea153d1168dbbb4783fe622b260072d23e463e8cad"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "index.html",
+      "bytes": 20501,
+      "sha256": "62a4f0ecc1afd3fef3bf041aac12a0b90cbd9bbb86926232ca45d756b0ff40b3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4134,
+      "sha256": "0a819c1c587a98ee3efd57c523fca1b0d69aa4302883908678e7eca4302da556"
+    },
+    {
+      "path": "static/css/bulma-carousel.min.css",
+      "bytes": 3645,
+      "sha256": "9d586b0d953f9dedc8ff3e8b5d611bc943849afefdb0f18a11bb0fed258b9072"
+    },
+    {
+      "path": "static/css/bulma-slider.min.css",
+      "bytes": 13782,
+      "sha256": "9bd5f05ad71360d0e87f21dd3d07d94c080486342f335ff041f5394c6aa6dac9"
+    },
+    {
+      "path": "static/css/bulma.min.css",
+      "bytes": 204030,
+      "sha256": "58b28659220961ead137cb5b346b5759562750ce703094d70fc786e0db467033"
+    },
+    {
+      "path": "static/css/fontawesome.all.min.css",
+      "bytes": 59344,
+      "sha256": "af1e6edc875a382b338bb25bd7c5c3f474a7f1b36212002a5896dd06f2186325"
+    },
+    {
+      "path": "static/css/fonts.css",
+      "bytes": 550,
+      "sha256": "6373a46421562cb730627d51d940cd63b7c7b1d449b53690019f9e83b196ec41"
+    },
+    {
+      "path": "static/css/index.css",
+      "bytes": 5172,
+      "sha256": "6d33cd4b2cd804fa2330c6f20ab20c8aa243ff76bfb15c3c2e779e03854fe1df"
+    },
+    {
+      "path": "static/fonts/template-font-1.ttf",
+      "bytes": 46896,
+      "sha256": "6fc4a767082e6fd00739e4092c1c57b1834a0f711e3afe72bbb178ec6fb3b38f"
+    },
+    {
+      "path": "static/fonts/template-font-2.ttf",
+      "bytes": 63188,
+      "sha256": "2a07d011004391a05cc50471d63b4446bb196aebbe751a4240c202b7cf71968f"
+    },
+    {
+      "path": "static/fonts/template-font-3.ttf",
+      "bytes": 27876,
+      "sha256": "07805c0a3e52e7d54d2e6a87308f38f299899e573ecbed68a73b3892795b59a6"
+    },
+    {
+      "path": "static/images/vitacdex/additional-objects.jpg",
+      "bytes": 118599,
+      "sha256": "e0ce756bfdfcb6971b0e10e5728d64155e26823ad172e3e612383a8275542c1e"
+    },
+    {
+      "path": "static/images/vitacdex/clutter.jpg",
+      "bytes": 81153,
+      "sha256": "fd3c1db18da7452d560dcec703419f7eba19d425a662280c39bed9ad23874ee5"
+    },
+    {
+      "path": "static/images/vitacdex/comparison.jpg",
+      "bytes": 119319,
+      "sha256": "021108f4eb6874e9cef21d22a43af7ffbe6d4986e463755c80df9af1c9831cc5"
+    },
+    {
+      "path": "static/images/vitacdex/demo-x.jpg",
+      "bytes": 107659,
+      "sha256": "418869611e15333a908396e0e9de2d6ebd889594c31d076f20b446fa886caed3"
+    },
+    {
+      "path": "static/images/vitacdex/demo-z.jpg",
+      "bytes": 102122,
+      "sha256": "0eb2544cbdbe49f3c9af6334cbf689023853d049f4329ece1e1a98ebb0bbe889"
+    },
+    {
+      "path": "static/images/vitacdex/deployment.png",
+      "bytes": 220403,
+      "sha256": "3917e99915e8b2012aad10a9ef69aa78621d90ff05ff32590a36a81320d67a45"
+    },
+    {
+      "path": "static/images/vitacdex/difficult-glue-box-down.jpg",
+      "bytes": 57525,
+      "sha256": "f8c9c3d5f2afefa28a946de8f29679d14a760a3b7f4805098549ee90ee4bb679"
+    },
+    {
+      "path": "static/images/vitacdex/difficult-glue-box-up.jpg",
+      "bytes": 47223,
+      "sha256": "54f0bbe47ee2ab216bc9565efb16a546feccacc0187306b66207f9355e115717"
+    },
+    {
+      "path": "static/images/vitacdex/difficult-playing-cards-down.jpg",
+      "bytes": 58162,
+      "sha256": "4fd5d96bf5fdcc8abff2a50d68d683c0a8ffa0837b41d51fb665b3d67704ae9a"
+    },
+    {
+      "path": "static/images/vitacdex/difficult-playing-cards-up.jpg",
+      "bytes": 48261,
+      "sha256": "eba6406181bf2ab9bac25a64fd32cef0b88e0c990e7da2e48ed917fc4bc89a98"
+    },
+    {
+      "path": "static/images/vitacdex/diverse-objects.jpg",
+      "bytes": 74152,
+      "sha256": "66c26ab2e17c4161abb6e3ce0c1b616db0c62fbfc83a843a24bcc09d2471e332"
+    },
+    {
+      "path": "static/images/vitacdex/hero.jpg",
+      "bytes": 38064,
+      "sha256": "8209795dd10bb88fd578217a8103fe4312496193ce614d8ee170085742696514"
+    },
+    {
+      "path": "static/images/vitacdex/method.png",
+      "bytes": 224639,
+      "sha256": "c9f4b5dc7b7e59e3299bd61d6171515eeaa04fd22b83b5402783fbfa4223a197"
+    },
+    {
+      "path": "static/images/vitacdex/mixed-ball.jpg",
+      "bytes": 67362,
+      "sha256": "c583479daebe0838fdce21d3e6133622accdc915bd80961d2fdf39673d3b87bc"
+    },
+    {
+      "path": "static/images/vitacdex/mixed-dental-pick-container.jpg",
+      "bytes": 69586,
+      "sha256": "adbe656850b221d9518dfd89703b27eb9b47cdfaec1a66437bfed528533572f7"
+    },
+    {
+      "path": "static/images/vitacdex/mixed-duck.jpg",
+      "bytes": 52595,
+      "sha256": "757cb7a0066e176aab8df8fb8ce926fdd4121c2b637b26dde781fe10ad61171c"
+    },
+    {
+      "path": "static/images/vitacdex/mixed-elephant.jpg",
+      "bytes": 59472,
+      "sha256": "89173ac073514aed0ed5285cf3f7b2a44675b81f40a8a6417617751709d06a53"
+    },
+    {
+      "path": "static/images/vitacdex/mixed-gum-container.jpg",
+      "bytes": 64602,
+      "sha256": "462d4e763c5526063059e7cac9215e9a392f2a13f28e4a537ae1688501bbf908"
+    },
+    {
+      "path": "static/images/vitacdex/mixed-pill-bottle.jpg",
+      "bytes": 57634,
+      "sha256": "b890167e826dc99396a4fadd6d4a77eb4b08aadd38119b96f277cf474a6ad95a"
+    },
+    {
+      "path": "static/images/vitacdex/occlusion.jpg",
+      "bytes": 70092,
+      "sha256": "c63e68d983eabbbd47355441aa6bcd330d3953e13cff140be20f09938a22c67a"
+    },
+    {
+      "path": "static/images/vitacdex/overview.jpg",
+      "bytes": 92304,
+      "sha256": "db852f1f2abd02c742271f36729be191c5e78fbfdf379a051dcd91cc62de4f35"
+    },
+    {
+      "path": "static/images/vitacdex/random-occlusion.jpg",
+      "bytes": 74549,
+      "sha256": "a5db96a4351dc01d9299400c74a1fe9e2171b71b5bfb1af09e17a9e500250283"
+    },
+    {
+      "path": "static/images/vitacdex/results.png",
+      "bytes": 132613,
+      "sha256": "cfaf4b1d06e432b56853faa1e30b3669cb49ab71b16625fac95cb5560d68bb27"
+    },
+    {
+      "path": "static/images/vitacdex/supplementary.jpg",
+      "bytes": 85256,
+      "sha256": "4adeade232ae3d82ba4b50fc7506e10e6d2c23cbbefc93906fc0222f2174ff74"
+    },
+    {
+      "path": "static/images/vitacdex/symmetrical-object.jpg",
+      "bytes": 50497,
+      "sha256": "ff56cba0c49d3f1fc4d06504b4660632d5c5070a6476c1013f871129fb5cee41"
+    },
+    {
+      "path": "static/images/vitacdex/transparent-object.jpg",
+      "bytes": 51289,
+      "sha256": "df9004764a6aabaa4f9614165b62b23802e4009ad5870f436fc7551445dc1335"
+    },
+    {
+      "path": "static/js/bulma-carousel.min.js",
+      "bytes": 40723,
+      "sha256": "a8a47bef2cd50640d82aea128360690086ccb6617c6858ee4c71559c88e4a732"
+    },
+    {
+      "path": "static/js/bulma-slider.min.js",
+      "bytes": 6926,
+      "sha256": "e520e9ef6e3223ecfbb50b4649d238af5a85af9161800ad1d003dac80d748f24"
+    },
+    {
+      "path": "static/js/fontawesome.all.min.js",
+      "bytes": 1194960,
+      "sha256": "20a3ef6979bbe5e4de1afaecc703e1d34cbc5e3ceab36d378539506327692d72"
+    },
+    {
+      "path": "static/js/index.js",
+      "bytes": 1325,
+      "sha256": "61682c13fab384464ab060814dc1c24ccbefc9e5ec0489222165fc9513da8797"
+    },
+    {
+      "path": "static/js/jquery-3.5.1.min.js",
+      "bytes": 89476,
+      "sha256": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d"
+    },
+    {
+      "path": "static/papers/vitacdex.pdf",
+      "bytes": 11566549,
+      "sha256": "ff796872f04efc9050f4bf8d96039cb6d407dca1c029154e68a3a26bb1c5a016"
+    },
+    {
+      "path": "static/videos/vitacdex/additional-objects.mp4",
+      "bytes": 1033764,
+      "sha256": "63f705fa70bfdeac60047bbc072383083350dc98cfd1ccd6410fc8c9d8aa14e4"
+    },
+    {
+      "path": "static/videos/vitacdex/clutter.mp4",
+      "bytes": 2840622,
+      "sha256": "27bbdbc9a728b39471a758d774578d105eeda1f2da7e7a968b2fd7e32dc25ed6"
+    },
+    {
+      "path": "static/videos/vitacdex/comparison.mp4",
+      "bytes": 1204528,
+      "sha256": "1590f326a831385555c43f0537664e71e7306380c86b11040efd50c745d599e9"
+    },
+    {
+      "path": "static/videos/vitacdex/demo-x.mp4",
+      "bytes": 6411212,
+      "sha256": "5b13bc771932a2c6670b06d715682e5767520a2d5e7eee92fa3c8ea58e133952"
+    },
+    {
+      "path": "static/videos/vitacdex/demo-z.mp4",
+      "bytes": 7085357,
+      "sha256": "44fb97f11cdc0d11625fd8a4c32b5114c896719aa77424338acd52a00148e1dc"
+    },
+    {
+      "path": "static/videos/vitacdex/difficult-glue-box-down.mp4",
+      "bytes": 1581362,
+      "sha256": "f56653d81901a6d2b87d81a7e11da7e6f35e19195b25401495df8be50ebeb8dd"
+    },
+    {
+      "path": "static/videos/vitacdex/difficult-glue-box-up.mp4",
+      "bytes": 1652996,
+      "sha256": "3d14960d15a042997c4c79832b1f18bb1f4d164e60cb8c34ac8f52b857325c01"
+    },
+    {
+      "path": "static/videos/vitacdex/difficult-playing-cards-down.mp4",
+      "bytes": 2214279,
+      "sha256": "0c48cc6b1fcbf6c2a49e8f74e64408b3c1695e4d5f943d8287e5cf62ad1e4963"
+    },
+    {
+      "path": "static/videos/vitacdex/difficult-playing-cards-up.mp4",
+      "bytes": 1776560,
+      "sha256": "dbe655f9f31030d7c6e024b95b7e9a774f8b3ddf9bd11794292db175b8e1f43e"
+    },
+    {
+      "path": "static/videos/vitacdex/diverse-objects.mp4",
+      "bytes": 825713,
+      "sha256": "b9a6ff923521cac8846de5650f28e58b1801897606e35b8185c186764dec900b"
+    },
+    {
+      "path": "static/videos/vitacdex/hero.mp4",
+      "bytes": 889425,
+      "sha256": "4578e36de8deacab0f8330f5bd53df5b95d4db2ce2522abd38efe040afc2b578"
+    },
+    {
+      "path": "static/videos/vitacdex/mixed-ball.mp4",
+      "bytes": 2369011,
+      "sha256": "9dca2f50782e0b334ef73e04285756f4ce750626244e761fd391b386db1b5da0"
+    },
+    {
+      "path": "static/videos/vitacdex/mixed-dental-pick-container.mp4",
+      "bytes": 2152539,
+      "sha256": "5d697551f8b39f7688d761167845278ef30303ae8d8a31922272367205ffd915"
+    },
+    {
+      "path": "static/videos/vitacdex/mixed-duck.mp4",
+      "bytes": 1818131,
+      "sha256": "3fc706405c70d4a5e8a8f695e753ddf82a5eabc8a69b78ab14e8a4a99dfd0d37"
+    },
+    {
+      "path": "static/videos/vitacdex/mixed-elephant.mp4",
+      "bytes": 2036117,
+      "sha256": "89fb52b266331765855ddfd6f32c934ca0a128bf4aea2c16ed24fb1726fc985f"
+    },
+    {
+      "path": "static/videos/vitacdex/mixed-gum-container.mp4",
+      "bytes": 2212304,
+      "sha256": "5277ae32a551e02aa7f8f2fa12f517d901f10c3583dac7fd4915dca7e5ae5d2e"
+    },
+    {
+      "path": "static/videos/vitacdex/mixed-pill-bottle.mp4",
+      "bytes": 1944325,
+      "sha256": "19c76e728a5a92b842b1a30ccd8417ff3f766c4facef0c2cf955be4a0a9fff68"
+    },
+    {
+      "path": "static/videos/vitacdex/occlusion.mp4",
+      "bytes": 2695014,
+      "sha256": "ea892c4729c257e561b1eee2d9c1d253b0502e4ee945fb8ca2d80a89f8817217"
+    },
+    {
+      "path": "static/videos/vitacdex/overview.mp4",
+      "bytes": 5380220,
+      "sha256": "a288134da052f2d3c8a1c55f325f3d7de9a70794b2545d6b41712cc11397f713"
+    },
+    {
+      "path": "static/videos/vitacdex/random-occlusion.mp4",
+      "bytes": 4393736,
+      "sha256": "2c86581c59600cb3018b9ba2abdc9cebf830d9d352d805e15278bc3012fccbd3"
+    },
+    {
+      "path": "static/videos/vitacdex/supplementary.mp4",
+      "bytes": 21587221,
+      "sha256": "eea4db721e83a9c43c964e01ba5462f2922fd6ce343bfab99a16cf279f13d6f9"
+    },
+    {
+      "path": "static/videos/vitacdex/symmetrical-object.mp4",
+      "bytes": 4203115,
+      "sha256": "c269f006ffb22ee12b84379c75f7323997a90041be34505c334332b9e09045cc"
+    },
+    {
+      "path": "static/videos/vitacdex/transparent-object.mp4",
+      "bytes": 12064211,
+      "sha256": "8d9c65931ec4faf62a07bf887f6f0374293f820da95d80227a0dc0f476b5cde5"
+    },
+    {
+      "path": "static/webfonts/fa-brands-400.eot",
+      "bytes": 136822,
+      "sha256": "6128dd44fed3a046ff8d835d677e0a837c70c64dc1c944b7edfde04eb8d8b879"
+    },
+    {
+      "path": "static/webfonts/fa-brands-400.svg",
+      "bytes": 747545,
+      "sha256": "e2749cb24a77208abdd9fda35f0d14f091948c44d21f977c8048a3b13e4beccb"
+    },
+    {
+      "path": "static/webfonts/fa-brands-400.ttf",
+      "bytes": 136516,
+      "sha256": "404d6083193e569bc5c28c7b1bc0e13ece80c6e0f5a50ad8e9633f48f3c09155"
+    },
+    {
+      "path": "static/webfonts/fa-brands-400.woff",
+      "bytes": 92136,
+      "sha256": "a0375c054a0041bd58e2a0bf7fa3df7c3904bfc4f790fd24e32ff3ee70fd0eef"
+    },
+    {
+      "path": "static/webfonts/fa-brands-400.woff2",
+      "bytes": 78460,
+      "sha256": "71b3ce72680f4183d28db86b184542051fd533bb1146933233e4f6a20cf98cba"
+    },
+    {
+      "path": "static/webfonts/fa-regular-400.eot",
+      "bytes": 34350,
+      "sha256": "f9853ad337d523c0b35fe7ac306268a7035ce0ff7624710ed8b39c2b88b20a33"
+    },
+    {
+      "path": "static/webfonts/fa-regular-400.svg",
+      "bytes": 144714,
+      "sha256": "d42a64dc349a98075e8be12587943f2bd52065a8bb18960d7dc7390b535117e0"
+    },
+    {
+      "path": "static/webfonts/fa-regular-400.ttf",
+      "bytes": 34052,
+      "sha256": "5e811f0b32d488b9a183b77cfc7ac1ef44b3ea7aaed014e83975dfe597d221f6"
+    },
+    {
+      "path": "static/webfonts/fa-regular-400.woff",
+      "bytes": 16772,
+      "sha256": "6799c999e422710f40f70a60a6138fc38106226c44d7bd1b1023f5bb65befef9"
+    },
+    {
+      "path": "static/webfonts/fa-regular-400.woff2",
+      "bytes": 13548,
+      "sha256": "ce20ed8a323117c8a718ff1ddc6dabb997373b575a8e896f2bf02b846c082c9d"
+    },
+    {
+      "path": "static/webfonts/fa-solid-900.eot",
+      "bytes": 204814,
+      "sha256": "e0e3c4af28348d721f8af603595c15d273a56f2b03392f9a413255fe5635f536"
+    },
+    {
+      "path": "static/webfonts/fa-solid-900.svg",
+      "bytes": 917575,
+      "sha256": "1a46e780ce5beb6507d62af8b20a92b33c8f042e87c612f4bbf8330bfc353419"
+    },
+    {
+      "path": "static/webfonts/fa-solid-900.ttf",
+      "bytes": 204528,
+      "sha256": "2caded242c04139761742fe0cda7f6592df1b6686857532c8a7c2e2536b976e4"
+    },
+    {
+      "path": "static/webfonts/fa-solid-900.woff",
+      "bytes": 104280,
+      "sha256": "aab971ade1633ab836222074ceae0aad8a082d900908f27491b221d6e83998ca"
+    },
+    {
+      "path": "static/webfonts/fa-solid-900.woff2",
+      "bytes": 80300,
+      "sha256": "6b555920e358f8a25a422988b448615c33bcccb4f932e8331cebfc8e2a737fc7"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1359,
+      "sha256": "13fe586b081ba8ac32b9704ab59e386dd8de2543c0e57d5829040b72b32124da"
+    }
+  ],
+  "third_party_sources": [
+    {
+      "url": "https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVpwHRN6g0.ttf",
+      "path": "static/fonts/template-font-1.ttf"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/googlesans/v76/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJllpyw.ttf",
+      "path": "static/fonts/template-font-2.ttf"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A-9a6Vc.ttf",
+      "path": "static/fonts/template-font-3.ttf"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+      "path": "static/js/jquery-3.5.1.min.js"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-brands-400.eot",
+      "path": "static/webfonts/fa-brands-400.eot"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-brands-400.svg",
+      "path": "static/webfonts/fa-brands-400.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-brands-400.ttf",
+      "path": "static/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-brands-400.woff",
+      "path": "static/webfonts/fa-brands-400.woff"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-brands-400.woff2",
+      "path": "static/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-regular-400.eot",
+      "path": "static/webfonts/fa-regular-400.eot"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-regular-400.svg",
+      "path": "static/webfonts/fa-regular-400.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-regular-400.ttf",
+      "path": "static/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-regular-400.woff",
+      "path": "static/webfonts/fa-regular-400.woff"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-regular-400.woff2",
+      "path": "static/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-solid-900.eot",
+      "path": "static/webfonts/fa-solid-900.eot"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-solid-900.svg",
+      "path": "static/webfonts/fa-solid-900.svg"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-solid-900.ttf",
+      "path": "static/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-solid-900.woff",
+      "path": "static/webfonts/fa-solid-900.woff"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts/fa-solid-900.woff2",
+      "path": "static/webfonts/fa-solid-900.woff2"
+    }
+  ],
+  "dependencies": {
+    "index.html": [
+      "./static/css/bulma-carousel.min.css",
+      "./static/css/bulma-slider.min.css",
+      "./static/css/bulma.min.css",
+      "./static/css/fontawesome.all.min.css",
+      "./static/css/fonts.css",
+      "./static/css/index.css?v=7",
+      "./static/images/vitacdex/clutter.jpg",
+      "./static/images/vitacdex/comparison.jpg",
+      "./static/images/vitacdex/demo-x.jpg",
+      "./static/images/vitacdex/demo-z.jpg",
+      "./static/images/vitacdex/deployment.png",
+      "./static/images/vitacdex/difficult-glue-box-down.jpg",
+      "./static/images/vitacdex/difficult-glue-box-up.jpg",
+      "./static/images/vitacdex/difficult-playing-cards-down.jpg",
+      "./static/images/vitacdex/difficult-playing-cards-up.jpg",
+      "./static/images/vitacdex/hero.jpg",
+      "./static/images/vitacdex/method.png",
+      "./static/images/vitacdex/mixed-ball.jpg",
+      "./static/images/vitacdex/mixed-dental-pick-container.jpg",
+      "./static/images/vitacdex/mixed-duck.jpg",
+      "./static/images/vitacdex/mixed-elephant.jpg",
+      "./static/images/vitacdex/mixed-gum-container.jpg",
+      "./static/images/vitacdex/mixed-pill-bottle.jpg",
+      "./static/images/vitacdex/occlusion.jpg",
+      "./static/images/vitacdex/overview.jpg",
+      "./static/images/vitacdex/random-occlusion.jpg",
+      "./static/images/vitacdex/results.png",
+      "./static/images/vitacdex/symmetrical-object.jpg",
+      "./static/images/vitacdex/transparent-object.jpg",
+      "./static/js/bulma-carousel.min.js",
+      "./static/js/bulma-slider.min.js",
+      "./static/js/fontawesome.all.min.js",
+      "./static/js/index.js",
+      "./static/js/jquery-3.5.1.min.js",
+      "./static/papers/vitacdex.pdf",
+      "./static/videos/vitacdex/clutter.mp4",
+      "./static/videos/vitacdex/comparison.mp4",
+      "./static/videos/vitacdex/demo-x.mp4",
+      "./static/videos/vitacdex/demo-z.mp4",
+      "./static/videos/vitacdex/difficult-glue-box-down.mp4",
+      "./static/videos/vitacdex/difficult-glue-box-up.mp4",
+      "./static/videos/vitacdex/difficult-playing-cards-down.mp4",
+      "./static/videos/vitacdex/difficult-playing-cards-up.mp4",
+      "./static/videos/vitacdex/hero.mp4",
+      "./static/videos/vitacdex/mixed-ball.mp4",
+      "./static/videos/vitacdex/mixed-dental-pick-container.mp4",
+      "./static/videos/vitacdex/mixed-duck.mp4",
+      "./static/videos/vitacdex/mixed-elephant.mp4",
+      "./static/videos/vitacdex/mixed-gum-container.mp4",
+      "./static/videos/vitacdex/mixed-pill-bottle.mp4",
+      "./static/videos/vitacdex/occlusion.mp4",
+      "./static/videos/vitacdex/overview.mp4",
+      "./static/videos/vitacdex/random-occlusion.mp4",
+      "./static/videos/vitacdex/symmetrical-object.mp4",
+      "./static/videos/vitacdex/transparent-object.mp4"
+    ],
+    "static/css/bulma-carousel.min.css": [],
+    "static/css/bulma-slider.min.css": [],
+    "static/css/bulma.min.css": [],
+    "static/css/fontawesome.all.min.css": [
+      "static/webfonts/fa-brands-400.eot",
+      "static/webfonts/fa-brands-400.svg",
+      "static/webfonts/fa-brands-400.ttf",
+      "static/webfonts/fa-brands-400.woff",
+      "static/webfonts/fa-brands-400.woff2",
+      "static/webfonts/fa-regular-400.eot",
+      "static/webfonts/fa-regular-400.svg",
+      "static/webfonts/fa-regular-400.ttf",
+      "static/webfonts/fa-regular-400.woff",
+      "static/webfonts/fa-regular-400.woff2",
+      "static/webfonts/fa-solid-900.eot",
+      "static/webfonts/fa-solid-900.svg",
+      "static/webfonts/fa-solid-900.ttf",
+      "static/webfonts/fa-solid-900.woff",
+      "static/webfonts/fa-solid-900.woff2"
+    ],
+    "static/css/fonts.css": [
+      "static/fonts/template-font-1.ttf",
+      "static/fonts/template-font-2.ttf",
+      "static/fonts/template-font-3.ttf"
+    ],
+    "static/css/index.css": []
+  },
+  "external_navigation_links": [
+    "https://sites.google.com/view/bi-touch/",
+    "https://yijionglin.github.io/neuraltouch/",
+    "https://sites.google.com/view/tactile-gym-2/home",
+    "https://yijionglin.github.io/simshear/",
+    "https://maxyang27896.github.io/anyrotate/",
+    "https://yijionglin.github.io/",
+    "https://yijionglin.github.io/",
+    "https://lepora.com/",
+    "http://creativecommons.org/licenses/by-sa/4.0/",
+    "https://github.com/nerfies/nerfies.github.io"
+  ],
+  "displayed_videos": [
+    "static/videos/vitacdex/hero.mp4",
+    "static/videos/vitacdex/overview.mp4",
+    "static/videos/vitacdex/demo-x.mp4",
+    "static/videos/vitacdex/demo-z.mp4",
+    "static/videos/vitacdex/comparison.mp4",
+    "static/videos/vitacdex/occlusion.mp4",
+    "static/videos/vitacdex/random-occlusion.mp4",
+    "static/videos/vitacdex/clutter.mp4",
+    "static/videos/vitacdex/mixed-ball.mp4",
+    "static/videos/vitacdex/mixed-duck.mp4",
+    "static/videos/vitacdex/mixed-pill-bottle.mp4",
+    "static/videos/vitacdex/mixed-elephant.mp4",
+    "static/videos/vitacdex/mixed-gum-container.mp4",
+    "static/videos/vitacdex/mixed-dental-pick-container.mp4",
+    "static/videos/vitacdex/difficult-glue-box-down.mp4",
+    "static/videos/vitacdex/difficult-playing-cards-up.mp4",
+    "static/videos/vitacdex/difficult-playing-cards-down.mp4",
+    "static/videos/vitacdex/difficult-glue-box-up.mp4",
+    "static/videos/vitacdex/symmetrical-object.mp4",
+    "static/videos/vitacdex/transparent-object.mp4"
+  ]
+}

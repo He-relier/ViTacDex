@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="ViTacDex learns goal-conditioned dexterous in-hand object reorientation through vision, touch and proprioception.">
+  <meta name="keywords" content="Tactile Sensing, Sim2Real, Dexterous Manipulation, Robot Learning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ViTacDex: Visuo-Tactile Policy Learning for Dexterous In-hand Object Reorientation</title>
+
+  <link href="./static/css/fonts.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/index.css?v=7">
+
+  <script src="./static/js/jquery-3.5.1.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="#">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://sites.google.com/view/bi-touch/">
+            Bi-Touch
+          </a>
+          <a class="navbar-item" href="https://yijionglin.github.io/neuraltouch/">
+            NeuralTouch
+          </a>
+          <a class="navbar-item" href="https://sites.google.com/view/tactile-gym-2/home">
+            Tactile Gym 2.0
+          </a>
+          <a class="navbar-item" href="https://yijionglin.github.io/simshear/">
+            SimShear
+          </a>
+          <a class="navbar-item" href="https://maxyang27896.github.io/anyrotate/">
+            AnyRotate
+          </a>
+          <a class="navbar-item" href="https://yijionglin.github.io/">
+            Website
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero publication-hero">
+  <video preload="metadata" poster="./static/images/vitacdex/hero.jpg" class="publication-cover-video" autoplay muted loop playsinline aria-hidden="true">
+    <source src="./static/videos/vitacdex/hero.mp4"
+            type="video/mp4">
+  </video>
+  <div class="publication-cover-overlay"></div>
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">ViTacDex: Visuo-Tactile Policy Learning for Dexterous In-hand Object Reorientation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Max Yang<sup>*</sup>,</span>
+            <span class="author-block">Wenhao He<sup>*</sup>,</span>
+            <span class="author-block">Chenghua Lu,</span>
+            <span class="author-block"><a href="https://yijionglin.github.io/">Yijiong Lin</a>,</span>
+            <span class="author-block">David A. W. Barton,</span>
+            <span class="author-block"><a href="https://lepora.com/">Nathan F. Lepora</a></span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Bristol Robotics Laboratory, University of Bristol</span>
+          </div>
+          <div class="is-size-6 publication-authors"><span class="author-block">* Equal contribution</span></div>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block"><a class="button is-normal is-rounded is-dark" href="./static/papers/vitacdex.pdf" target="_blank" rel="noopener"><span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper (coming soon)</span></a></span>
+              <span class="link-block"><a class="button is-normal is-rounded is-dark" href="#mixed-demonstration"><span class="icon"><i class="fas fa-play"></i></span><span>Video (coming soon)</span></a></span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            In-hand object reorientation requires precise control under unstable grasp configurations and severe partial observability. We introduce <strong>ViTacDex</strong>, a visuo-tactile policy-learning framework for general, goal-conditioned in-hand object reorientation. The task is formulated as a desired axis–angle rotation, and a two-stage teacher–student training paradigm distills a policy for real-world vision, tactile sensing and proprioception. Our representation combines partial point-cloud observations, intermittently available object pose and tactile contact features. Visual domain randomization models clutter, occlusion, noise and interruptions in pose feedback. For real-world deployment, an occlusion-aware pose-tracking pipeline and learned tactile perception models provide the observations needed by the policy. Simulation and real-world experiments demonstrate the complementary roles of vision and touch: vision provides geometric context and goal guidance, while tactile feedback helps maintain stable manipulation when visual observations degrade. The resulting policy transfers to a tactile-enabled Allegro hand for reorientation across diverse unseen objects and challenging sensing conditions.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <div class="hero teaser">
+      <div class="container teaser-container">
+        <div class="hero-body">
+          <video preload="metadata" id="teaser" autoplay controls muted loop playsinline height="100%" poster="./static/images/vitacdex/overview.jpg">
+            <source src="./static/videos/vitacdex/overview.mp4"
+                    type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            ViTacDex combines vision from a wrist-mounted camera, fingertip tactile sensing and proprioception to reorient objects toward axis–angle goals. The policy controls a 16-DoF Allegro hand at 20 Hz.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Methodology</h2>
+
+    <div class="content">
+      <!-- <h3 class="title is-4">Policy Learning</h3> -->
+      <img class="methodology-policy-figure"
+           src="./static/images/vitacdex/method.png"
+           alt="ViTacDex teacher-student policy learning with privileged information and multimodal observations.">
+      <p>
+        ViTacDex learns through a two-stage teacher–student framework. In simulation, a teacher policy learns using privileged information about object shape, state and contact. A student policy then learns to reproduce the teacher’s behavior using proprioception, tactile contact features, partial point clouds and intermittently available object-pose estimates. Visual domain randomization exposes the student to clutter, occlusion and unreliable pose feedback.
+      </p>
+    <h2 class="title is-3 has-text-centered">Main Results</h2>
+
+      <!-- <h3 class="title is-4">Policy Input Modalities</h3> -->
+      <img class="methodology-result-figure vitacdex-results-figure"
+           src="./static/images/vitacdex/results.png"
+           alt="Real-world performance of policies trained with different sensing modalities across ten objects.">
+      <p>
+        We evaluate policies using proprioception, touch, vision and combined visuo-tactile sensing across ten objects in the real world. Cumulative Success Average (CSA) measures how many target orientations are reached in succession, while Time to Terminate (TTT) measures how long manipulation continues before the object gets stuck or falls. Combining vision and touch delivers the strongest overall performance, with tactile feedback helping maintain a stable grasp. The table reports performance and variability for each sensing configuration.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container task-gallery-container">
+    <h2 class="title is-3 has-text-centered">Visuo-Tactile In-Hand Reorientation</h2>
+    <p class="has-text-centered">
+      Each video shows the wrist-camera view, point-cloud observations rendered as spheres, and four tactile image streams from left to right. The tactile images are arranged from top to bottom as index, middle, pinky and thumb. Point-cloud colors indicate spatial position.
+    </p>
+
+    <div class="columns is-centered is-multiline simulation-task-gallery vitacdex-observations">
+
+      <div class="column is-half">
+        <div class="content">
+          <video preload="metadata" poster="./static/images/vitacdex/demo-x.jpg" id="dollyzoom" autoplay controls muted loop playsinline>
+            <source src="./static/videos/vitacdex/demo-x.mp4"
+                    type="video/mp4">
+          </video>
+          <h3 class="title is-5">Container Reorientation about the −X Axis</h3>
+        </div>
+      </div>
+
+      <div class="column is-half">
+        <div class="content">
+          <video preload="metadata" poster="./static/images/vitacdex/demo-z.jpg" id="matting-video" autoplay controls muted loop playsinline>
+            <source src="./static/videos/vitacdex/demo-z.mp4"
+                    type="video/mp4">
+          </video>
+          <h3 class="title is-5">Container Reorientation about the Z Axis</h3>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container task-gallery-container">
+    <h2 class="title is-3 has-text-centered">Real-World Experiments</h2>
+
+    <div class="columns is-multiline simulation-task-gallery">
+      <div class="column is-half">
+        <div class="content">
+          <video preload="metadata" poster="./static/images/vitacdex/comparison.jpg" autoplay controls muted loop playsinline>
+            <source src="./static/videos/vitacdex/comparison.mp4"
+                    type="video/mp4">
+          </video>
+          <h3 class="title is-5">Sensing Modality Comparison</h3>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="column is-half">
+        <div class="content">
+          <video preload="metadata" poster="./static/images/vitacdex/occlusion.jpg" autoplay controls muted loop playsinline>
+            <source src="./static/videos/vitacdex/occlusion.mp4"
+                    type="video/mp4">
+          </video>
+          <h3 class="title is-5">Partial Visual Occlusion</h3>
+        </div>
+      </div>
+
+      <div class="column is-half">
+        <div class="content">
+          <video preload="metadata" poster="./static/images/vitacdex/random-occlusion.jpg" autoplay controls muted loop playsinline>
+            <source src="./static/videos/vitacdex/random-occlusion.mp4"
+                    type="video/mp4">
+          </video>
+          <h3 class="title is-5">Intermittent Visual Occlusion</h3>
+        </div>
+      </div>
+
+      <div class="column is-half">
+        <div class="content">
+          <video preload="metadata" poster="./static/images/vitacdex/clutter.jpg" autoplay controls muted loop playsinline>
+            <source src="./static/videos/vitacdex/clutter.mp4"
+                    type="video/mp4">
+          </video>
+          <h3 class="title is-5">Visual Disturbances in the Background</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container task-gallery-container content">
+    <h2 class="title is-3 has-text-centered">Visuo-Tactile Sim-to-Real Deployment</h2>
+    <img class="real2sim-flow-figure" src="./static/images/vitacdex/deployment.png" alt="ViTacDex deployment pipeline: RGB-D vision, tactile perception, multimodal policy and real Allegro hand.">
+    <p class="has-text-justified">For real-world deployment, a wrist-mounted RGB-D camera provides partial point clouds and object-pose estimates. Occlusion-aware pose tracking combines FoundationPose with SAM2-guided re-registration, while learned tactile perception models infer contact features from each fingertip image. The student policy combines these observations with proprioception to control the hand. An in-hand state estimator helps assess reorientation progress when pose tracking is interrupted.</p>
+  </div>
+</section>
+
+<section class="section" id="mixed-demonstration">
+  <div class="container task-gallery-container">
+    <h2 class="title is-3 has-text-centered">Mixed Demonstration</h2>
+    <div class="columns is-centered is-multiline simulation-task-gallery vitacdex-ppt-gallery">
+      <div class="column is-one-third">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/mixed-ball.jpg" aria-label="Ball">
+            <source src="./static/videos/vitacdex/mixed-ball.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Ball</h3>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/mixed-duck.jpg" aria-label="Duck">
+            <source src="./static/videos/vitacdex/mixed-duck.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Duck</h3>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/mixed-pill-bottle.jpg" aria-label="Pill Bottle">
+            <source src="./static/videos/vitacdex/mixed-pill-bottle.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Pill Bottle</h3>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/mixed-elephant.jpg" aria-label="Elephant">
+            <source src="./static/videos/vitacdex/mixed-elephant.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Elephant</h3>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/mixed-gum-container.jpg" aria-label="Gum Container">
+            <source src="./static/videos/vitacdex/mixed-gum-container.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Gum Container</h3>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/mixed-dental-pick-container.jpg" aria-label="Dental Pick Container">
+            <source src="./static/videos/vitacdex/mixed-dental-pick-container.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Dental Pick Container</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="difficult-to-grasp-shapes">
+  <div class="container task-gallery-container">
+    <h2 class="title is-3 has-text-centered">Difficult-to-Grasp Shapes</h2>
+    <div class="columns is-centered is-multiline simulation-task-gallery vitacdex-ppt-gallery">
+      <div class="column is-half">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/difficult-glue-box-down.jpg" aria-label="Glue Box (Palm Down)">
+            <source src="./static/videos/vitacdex/difficult-glue-box-down.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Glue Box (Palm Down)</h3>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/difficult-playing-cards-up.jpg" aria-label="Playing Card Box (Palm Up)">
+            <source src="./static/videos/vitacdex/difficult-playing-cards-up.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Playing Card Box (Palm Up)</h3>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/difficult-playing-cards-down.jpg" aria-label="Playing Card Box (Palm Down)">
+            <source src="./static/videos/vitacdex/difficult-playing-cards-down.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Playing Card Box (Palm Down)</h3>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/difficult-glue-box-up.jpg" aria-label="Glue Box (Palm Up)">
+            <source src="./static/videos/vitacdex/difficult-glue-box-up.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Glue Box (Palm Up)</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="transparent-symmetrical-objects">
+  <div class="container task-gallery-container">
+    <h2 class="title is-3 has-text-centered">Transparent &amp; Symmetrical Objects</h2>
+    <div class="columns is-centered is-multiline simulation-task-gallery vitacdex-ppt-gallery">
+      <div class="column is-half">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/symmetrical-object.jpg" aria-label="Symmetrical Object">
+            <source src="./static/videos/vitacdex/symmetrical-object.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Symmetrical Object</h3>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="content">
+          <video controls muted loop playsinline preload="none" poster="./static/images/vitacdex/transparent-object.jpg" aria-label="Transparent Object">
+            <source src="./static/videos/vitacdex/transparent-object.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Transparent Object</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>Coming soon</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/papers/vitacdex.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+</div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            The original website template is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            The website uses the <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a> template.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
