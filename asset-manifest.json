@@ -203,8 +203,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 20501,
-      "sha256": "62a4f0ecc1afd3fef3bf041aac12a0b90cbd9bbb86926232ca45d756b0ff40b3"
+      "bytes": 19571,
+      "sha256": "18a55460eaf9a47efc262c12c9774ed5dff1d6ec476ee20903d9c5dd44f2b812"
     },
     {
       "path": "README.md",
@@ -776,12 +776,6 @@
     "static/css/index.css": []
   },
   "external_navigation_links": [
-    "https://sites.google.com/view/bi-touch/",
-    "https://yijionglin.github.io/neuraltouch/",
-    "https://sites.google.com/view/tactile-gym-2/home",
-    "https://yijionglin.github.io/simshear/",
-    "https://maxyang27896.github.io/anyrotate/",
-    "https://yijionglin.github.io/",
     "https://yijionglin.github.io/",
     "https://lepora.com/",
     "http://creativecommons.org/licenses/by-sa/4.0/",
