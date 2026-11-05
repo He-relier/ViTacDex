@@ -1,0 +1,3 @@
+# Unpublished paper drafts must stay local.
+/static/papers/*.pdf
+/ViTacDex___T_RL_Draft*.pdf
