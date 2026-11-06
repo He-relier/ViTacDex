@@ -261,8 +261,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 22047,
-      "sha256": "8278ca44c4c167e3b851288dba1cf7ddf83e2609bb6cf78fe0d5af9dd7c03289"
+      "bytes": 22009,
+      "sha256": "eb10a58ad94f7d64b94c8a6f3b9a571901a04ef7130b571f227a7132efd8dac1"
     },
     {
       "path": "README.md",
@@ -296,8 +296,8 @@
     },
     {
       "path": "static/css/index.css",
-      "bytes": 5172,
-      "sha256": "6d33cd4b2cd804fa2330c6f20ab20c8aa243ff76bfb15c3c2e779e03854fe1df"
+      "bytes": 7351,
+      "sha256": "6b7fd318fdb07f2346f4e4e85072ae9d0219d788168dd43323360380248e0245"
     },
     {
       "path": "static/fonts/template-font-1.ttf",
@@ -800,7 +800,7 @@
       "./static/css/bulma.min.css",
       "./static/css/fontawesome.all.min.css",
       "./static/css/fonts.css",
-      "./static/css/index.css?v=7",
+      "./static/css/index.css?v=8",
       "./static/images/vitacdex/clutter.jpg",
       "./static/images/vitacdex/comparison.jpg",
       "./static/images/vitacdex/demo-x.jpg",
