@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="ViTacDex learns goal-conditioned dexterous in-hand object reorientation through vision, touch and proprioception.">
+        content="ViTacDex uses a single visuo-tactile policy for dexterous in-hand object reorientation across different random goal orientations.">
   <meta name="keywords" content="Tactile Sensing, Sim2Real, Dexterous Manipulation, Robot Learning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ViTacDex: Visuo-Tactile Policy Learning for Dexterous In-hand Object Reorientation</title>
@@ -101,18 +101,21 @@
     <div class="hero teaser">
       <div class="container teaser-container">
         <div class="hero-body">
-          <video preload="metadata" id="teaser" autoplay controls muted loop playsinline height="100%" poster="./static/images/vitacdex/overview.jpg">
-            <source src="./static/videos/vitacdex/overview.mp4"
+          <h2 class="title is-3 has-text-centered">A Single Policy for Diverse Goal Orientations</h2>
+          <video preload="metadata" id="teaser" autoplay controls muted loop playsinline height="100%" poster="./static/images/vitacdex/overview-full.jpg">
+            <source src="./static/videos/vitacdex/overview-full.mp4"
                     type="video/mp4">
           </video>
           <h2 class="subtitle has-text-centered">
-            ViTacDex combines vision from a wrist-mounted camera, fingertip tactile sensing and proprioception to reorient objects toward axis–angle goals. The policy controls a 16-DoF Allegro hand at 20 Hz.
+            ViTacDex uses <strong>a single goal-conditioned policy</strong> to reorient objects toward diverse target orientations. Combining wrist-camera vision, fingertip tactile sensing and proprioception, the policy controls a 16-DoF Allegro hand at 20 Hz.
           </h2>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -124,7 +127,7 @@
            src="./static/images/vitacdex/method.png"
            alt="ViTacDex teacher-student policy learning with privileged information and multimodal observations.">
       <p>
-        ViTacDex learns through a two-stage teacher–student framework. In simulation, a teacher policy learns using privileged information about object shape, state and contact. A student policy then learns to reproduce the teacher’s behavior using proprioception, tactile contact features, partial point clouds and intermittently available object-pose estimates. Visual domain randomization exposes the student to clutter, occlusion and unreliable pose feedback.
+        ViTacDex learns through a two-stage teacher–student framework. In simulation, a teacher policy learns using privileged information about object shape, state and contact. A student policy then learns to reproduce the teacher’s behavior using proprioception, tactile contact features, partial point clouds and intermittently available object-pose estimates. Visual domain randomization exposes the student to clutter, occlusion and unreliable pose feedback. The resulting single goal-conditioned student policy is used across different target orientations.
       </p>
     <h2 class="title is-3 has-text-centered">Main Results</h2>
 
@@ -138,6 +141,16 @@
     </div>
   </div>
 </section>
+
+<section class="section">
+  <div class="container task-gallery-container content">
+    <h2 class="title is-3 has-text-centered">Visuo-Tactile Sim-to-Real Deployment</h2>
+    <img class="real2sim-flow-figure" src="./static/images/vitacdex/deployment.png" alt="ViTacDex deployment pipeline: RGB-D vision, tactile perception, multimodal policy and real Allegro hand.">
+    <p class="has-text-justified">For real-world deployment, a wrist-mounted RGB-D camera provides partial point clouds and object-pose estimates. Occlusion-aware pose tracking combines FoundationPose with SAM2-guided re-registration, while learned tactile perception models infer contact features from each fingertip image. The student policy combines these observations with proprioception to control the hand. An in-hand state estimator helps assess reorientation progress when pose tracking is interrupted.</p>
+  </div>
+</section>
+
+
 
 <section class="section">
   <div class="container task-gallery-container">
@@ -224,11 +237,49 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container task-gallery-container content">
-    <h2 class="title is-3 has-text-centered">Visuo-Tactile Sim-to-Real Deployment</h2>
-    <img class="real2sim-flow-figure" src="./static/images/vitacdex/deployment.png" alt="ViTacDex deployment pipeline: RGB-D vision, tactile perception, multimodal policy and real Allegro hand.">
-    <p class="has-text-justified">For real-world deployment, a wrist-mounted RGB-D camera provides partial point clouds and object-pose estimates. Occlusion-aware pose tracking combines FoundationPose with SAM2-guided re-registration, while learned tactile perception models infer contact features from each fingertip image. The student policy combines these observations with proprioception to control the hand. An in-hand state estimator helps assess reorientation progress when pose tracking is interrupted.</p>
+
+
+<section class="section" id="random-goal-orientation">
+  <div class="container task-gallery-container">
+    <h2 class="title is-3 has-text-centered">Random Goal Orientation</h2>
+    <p class="has-text-centered">
+      <strong>A single policy across different random goal orientations.</strong>
+      The same visuo-tactile policy controls the Allegro hand in all four experiments, reorienting objects toward randomly sampled target orientations using vision, touch and proprioception.
+    </p>
+    <div class="columns is-centered is-multiline simulation-task-gallery vitacdex-ppt-gallery">
+      <div class="column is-half">
+        <div class="content">
+          <video preload="metadata" autoplay controls muted loop playsinline poster="./static/images/vitacdex/random-goal-1.jpg" aria-label="Random goal orientation: Dental Pick Container">
+            <source src="./static/videos/vitacdex/random-goal-1.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Dental Pick Container</h3>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="content">
+          <video preload="metadata" autoplay controls muted loop playsinline poster="./static/images/vitacdex/random-goal-2.jpg" aria-label="Random goal orientation: Gum Container">
+            <source src="./static/videos/vitacdex/random-goal-2.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Gum Container</h3>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="content">
+          <video preload="metadata" autoplay controls muted loop playsinline poster="./static/images/vitacdex/random-goal-3.jpg" aria-label="Random goal orientation: Duck">
+            <source src="./static/videos/vitacdex/random-goal-3.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Duck</h3>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="content">
+          <video preload="metadata" autoplay controls muted loop playsinline poster="./static/images/vitacdex/random-goal-4.jpg" aria-label="Random goal orientation: Pill Bottle">
+            <source src="./static/videos/vitacdex/random-goal-4.mp4" type="video/mp4">
+          </video>
+          <h3 class="title is-5">Pill Bottle</h3>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -287,6 +338,8 @@
     </div>
   </div>
 </section>
+
+
 
 <section class="section" id="difficult-to-grasp-shapes">
   <div class="container task-gallery-container">

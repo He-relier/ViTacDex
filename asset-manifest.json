@@ -1,6 +1,6 @@
 {
   "entry": "index.html",
-  "local_asset_references": 54,
+  "local_asset_references": 62,
   "external_runtime_dependencies": 0,
   "videos": [
     {
@@ -34,6 +34,46 @@
       "decode_errors": 0
     },
     {
+      "slide": 12,
+      "video_number": 1,
+      "title": "Glue Box (Palm Down)",
+      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_01_Vtp z.mov",
+      "path": "static/videos/vitacdex/difficult-glue-box-down.mp4",
+      "frames": 736,
+      "duration_seconds": 24.533333,
+      "decode_errors": 0
+    },
+    {
+      "slide": 12,
+      "video_number": 3,
+      "title": "Glue Box (Palm Up)",
+      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_03_7ecb7e08fc38d485a5fa8809248bf169_raw.mp4",
+      "path": "static/videos/vitacdex/difficult-glue-box-up.mp4",
+      "frames": 676,
+      "duration_seconds": 22.533333,
+      "decode_errors": 0
+    },
+    {
+      "slide": 12,
+      "video_number": 4,
+      "title": "Playing Card Box (Palm Down)",
+      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_04_IMG_0785.mov",
+      "path": "static/videos/vitacdex/difficult-playing-cards-down.mp4",
+      "frames": 713,
+      "duration_seconds": 23.766667,
+      "decode_errors": 0
+    },
+    {
+      "slide": 12,
+      "video_number": 2,
+      "title": "Playing Card Box (Palm Up)",
+      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_02_4b0c777bf888e401173359505bf6107d_raw.mp4",
+      "path": "static/videos/vitacdex/difficult-playing-cards-up.mp4",
+      "frames": 706,
+      "duration_seconds": 23.533333,
+      "decode_errors": 0
+    },
+    {
       "path": "static/videos/vitacdex/diverse-objects.mp4",
       "frames": 447,
       "duration_seconds": 14.966667,
@@ -43,30 +83,6 @@
       "path": "static/videos/vitacdex/hero.mp4",
       "frames": 240,
       "duration_seconds": 12.0,
-      "decode_errors": 0
-    },
-    {
-      "path": "static/videos/vitacdex/occlusion.mp4",
-      "frames": 540,
-      "duration_seconds": 18.0,
-      "decode_errors": 0
-    },
-    {
-      "path": "static/videos/vitacdex/overview.mp4",
-      "frames": 1044,
-      "duration_seconds": 35.0,
-      "decode_errors": 0
-    },
-    {
-      "path": "static/videos/vitacdex/random-occlusion.mp4",
-      "frames": 540,
-      "duration_seconds": 18.0,
-      "decode_errors": 0
-    },
-    {
-      "path": "static/videos/vitacdex/supplementary.mp4",
-      "frames": 8205,
-      "duration_seconds": 273.5,
       "decode_errors": 0
     },
     {
@@ -80,6 +96,16 @@
       "decode_errors": 0
     },
     {
+      "slide": 10,
+      "video_number": 1,
+      "title": "Dental Pick Container",
+      "source": "03_Mixed Demonstration/slide_10_video_01_Vtp_y (3).mov",
+      "path": "static/videos/vitacdex/mixed-dental-pick-container.mp4",
+      "frames": 952,
+      "duration_seconds": 31.733333,
+      "decode_errors": 0
+    },
+    {
       "slide": 9,
       "video_number": 4,
       "title": "Duck",
@@ -87,16 +113,6 @@
       "path": "static/videos/vitacdex/mixed-duck.mp4",
       "frames": 795,
       "duration_seconds": 26.5,
-      "decode_errors": 0
-    },
-    {
-      "slide": 9,
-      "video_number": 5,
-      "title": "Pill Bottle",
-      "source": "03_Mixed Demonstration/slide_09_video_05_Vtp_z (3).mov",
-      "path": "static/videos/vitacdex/mixed-pill-bottle.mp4",
-      "frames": 911,
-      "duration_seconds": 30.366667,
       "decode_errors": 0
     },
     {
@@ -120,53 +136,90 @@
       "decode_errors": 0
     },
     {
-      "slide": 10,
-      "video_number": 1,
-      "title": "Dental Pick Container",
-      "source": "03_Mixed Demonstration/slide_10_video_01_Vtp_y (3).mov",
-      "path": "static/videos/vitacdex/mixed-dental-pick-container.mp4",
-      "frames": 952,
-      "duration_seconds": 31.733333,
+      "slide": 9,
+      "video_number": 5,
+      "title": "Pill Bottle",
+      "source": "03_Mixed Demonstration/slide_09_video_05_Vtp_z (3).mov",
+      "path": "static/videos/vitacdex/mixed-pill-bottle.mp4",
+      "frames": 911,
+      "duration_seconds": 30.366667,
       "decode_errors": 0
     },
     {
-      "slide": 12,
-      "video_number": 1,
-      "title": "Glue Box (Palm Down)",
-      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_01_Vtp z.mov",
-      "path": "static/videos/vitacdex/difficult-glue-box-down.mp4",
-      "frames": 736,
-      "duration_seconds": 24.533333,
+      "path": "static/videos/vitacdex/occlusion.mp4",
+      "frames": 540,
+      "duration_seconds": 18.0,
       "decode_errors": 0
     },
     {
-      "slide": 12,
-      "video_number": 2,
-      "title": "Playing Card Box (Palm Up)",
-      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_02_4b0c777bf888e401173359505bf6107d_raw.mp4",
-      "path": "static/videos/vitacdex/difficult-playing-cards-up.mp4",
-      "frames": 706,
-      "duration_seconds": 23.533333,
+      "path": "static/videos/vitacdex/overview-full.mp4",
+      "frames": 5950,
+      "duration_seconds": 198.333333,
+      "decode_errors": 0,
+      "bytes": 87100920,
+      "source_files": [
+        "overview.mp4",
+        "overview1.mp4",
+        "overview3.mp4",
+        "overview4.mp4"
+      ]
+    },
+    {
+      "path": "static/videos/vitacdex/overview.mp4",
+      "frames": 1044,
+      "duration_seconds": 35.0,
       "decode_errors": 0
     },
     {
-      "slide": 12,
-      "video_number": 4,
-      "title": "Playing Card Box (Palm Down)",
-      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_04_IMG_0785.mov",
-      "path": "static/videos/vitacdex/difficult-playing-cards-down.mp4",
-      "frames": 713,
-      "duration_seconds": 23.766667,
+      "path": "static/videos/vitacdex/random-goal-1.mp4",
+      "frames": 450,
+      "duration_seconds": 15.0,
+      "decode_errors": 0,
+      "bytes": 1876362,
+      "source_files": [
+        "random1.mp4"
+      ]
+    },
+    {
+      "path": "static/videos/vitacdex/random-goal-2.mp4",
+      "frames": 711,
+      "duration_seconds": 23.7,
+      "decode_errors": 0,
+      "bytes": 2934478,
+      "source_files": [
+        "random2.mp4"
+      ]
+    },
+    {
+      "path": "static/videos/vitacdex/random-goal-3.mp4",
+      "frames": 704,
+      "duration_seconds": 23.466667,
+      "decode_errors": 0,
+      "bytes": 2955217,
+      "source_files": [
+        "random3.mp4"
+      ]
+    },
+    {
+      "path": "static/videos/vitacdex/random-goal-4.mp4",
+      "frames": 764,
+      "duration_seconds": 25.466667,
+      "decode_errors": 0,
+      "bytes": 3040961,
+      "source_files": [
+        "random4.mp4"
+      ]
+    },
+    {
+      "path": "static/videos/vitacdex/random-occlusion.mp4",
+      "frames": 540,
+      "duration_seconds": 18.0,
       "decode_errors": 0
     },
     {
-      "slide": 12,
-      "video_number": 3,
-      "title": "Glue Box (Palm Up)",
-      "source": "04_Difficult-to-Grasp Shapes/slide_12_video_03_7ecb7e08fc38d485a5fa8809248bf169_raw.mp4",
-      "path": "static/videos/vitacdex/difficult-glue-box-up.mp4",
-      "frames": 676,
-      "duration_seconds": 22.533333,
+      "path": "static/videos/vitacdex/supplementary.mp4",
+      "frames": 8205,
+      "duration_seconds": 273.5,
       "decode_errors": 0
     },
     {
@@ -197,19 +250,24 @@
       "sha256": "60dba563683d15697718c7ea153d1168dbbb4783fe622b260072d23e463e8cad"
     },
     {
+      "path": ".gitignore",
+      "bytes": 96,
+      "sha256": "9ca3a2bac3ef249be84931306f1508d5a8eed11e0a6700ccd64dd8664be17ecc"
+    },
+    {
       "path": ".nojekyll",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "index.html",
-      "bytes": 19405,
-      "sha256": "70f89e8f1ae214bf26f16f37612b303aee75f8576d582fa11960c9dab93565d8"
+      "bytes": 22047,
+      "sha256": "8278ca44c4c167e3b851288dba1cf7ddf83e2609bb6cf78fe0d5af9dd7c03289"
     },
     {
       "path": "README.md",
-      "bytes": 4134,
-      "sha256": "0a819c1c587a98ee3efd57c523fca1b0d69aa4302883908678e7eca4302da556"
+      "bytes": 904,
+      "sha256": "07bd428ff5d4772ac2a8bb634f1c82e8299d9dc4c45e066d2ad50bbfba620ab2"
     },
     {
       "path": "static/css/bulma-carousel.min.css",
@@ -357,9 +415,34 @@
       "sha256": "c63e68d983eabbbd47355441aa6bcd330d3953e13cff140be20f09938a22c67a"
     },
     {
+      "path": "static/images/vitacdex/overview-full.jpg",
+      "bytes": 213379,
+      "sha256": "f0326bab0e8da17f2da711b70a305dc92c83a06e752618cc0880363cc02f412b"
+    },
+    {
       "path": "static/images/vitacdex/overview.jpg",
       "bytes": 92304,
       "sha256": "db852f1f2abd02c742271f36729be191c5e78fbfdf379a051dcd91cc62de4f35"
+    },
+    {
+      "path": "static/images/vitacdex/random-goal-1.jpg",
+      "bytes": 99471,
+      "sha256": "2bded9690cc0aa835f404d2ef62eca2d2ec6981dd8277bfe57b827a7c4faf4a1"
+    },
+    {
+      "path": "static/images/vitacdex/random-goal-2.jpg",
+      "bytes": 102073,
+      "sha256": "9d6047e8a86b24e967c5de9aa8ae55c8e1a75fa7021ccd39f089c8d2497c2257"
+    },
+    {
+      "path": "static/images/vitacdex/random-goal-3.jpg",
+      "bytes": 93848,
+      "sha256": "edaa1182b4b360c3cc3bec50d91e569036abb15a8a7a50ab76421fa114cebe04"
+    },
+    {
+      "path": "static/images/vitacdex/random-goal-4.jpg",
+      "bytes": 90658,
+      "sha256": "93121737a8d6b203ca3eccfb1cb227691cdab1c30ac3921c5fa387e5e2e2eb28"
     },
     {
       "path": "static/images/vitacdex/random-occlusion.jpg",
@@ -502,9 +585,34 @@
       "sha256": "ea892c4729c257e561b1eee2d9c1d253b0502e4ee945fb8ca2d80a89f8817217"
     },
     {
+      "path": "static/videos/vitacdex/overview-full.mp4",
+      "bytes": 87100920,
+      "sha256": "8e9b80413535d0766c31b6f2c4dde618c26bb581e783c9092afbe0bd63ce0a8f"
+    },
+    {
       "path": "static/videos/vitacdex/overview.mp4",
       "bytes": 5380220,
       "sha256": "a288134da052f2d3c8a1c55f325f3d7de9a70794b2545d6b41712cc11397f713"
+    },
+    {
+      "path": "static/videos/vitacdex/random-goal-1.mp4",
+      "bytes": 1876362,
+      "sha256": "a01e5f3fcd5908202f315c3bd1008dfe8bb315023ebf3d03bfc29e4a74283c5e"
+    },
+    {
+      "path": "static/videos/vitacdex/random-goal-2.mp4",
+      "bytes": 2934478,
+      "sha256": "ef6785f033925ad58c0b2bf21505641b7962bdf17fb78d569a00186c38d30e40"
+    },
+    {
+      "path": "static/videos/vitacdex/random-goal-3.mp4",
+      "bytes": 2955217,
+      "sha256": "1a386dd74bfcd1dd7c6c88df3207667bf5acd93345705b5d2640de2d786d36c6"
+    },
+    {
+      "path": "static/videos/vitacdex/random-goal-4.mp4",
+      "bytes": 3040961,
+      "sha256": "a2d2b67d40e6fafb637c4af286d773e1d580970ad770026a363a528b02164712"
     },
     {
       "path": "static/videos/vitacdex/random-occlusion.mp4",
@@ -711,7 +819,11 @@
       "./static/images/vitacdex/mixed-gum-container.jpg",
       "./static/images/vitacdex/mixed-pill-bottle.jpg",
       "./static/images/vitacdex/occlusion.jpg",
-      "./static/images/vitacdex/overview.jpg",
+      "./static/images/vitacdex/overview-full.jpg",
+      "./static/images/vitacdex/random-goal-1.jpg",
+      "./static/images/vitacdex/random-goal-2.jpg",
+      "./static/images/vitacdex/random-goal-3.jpg",
+      "./static/images/vitacdex/random-goal-4.jpg",
       "./static/images/vitacdex/random-occlusion.jpg",
       "./static/images/vitacdex/results.png",
       "./static/images/vitacdex/symmetrical-object.jpg",
@@ -737,7 +849,11 @@
       "./static/videos/vitacdex/mixed-gum-container.mp4",
       "./static/videos/vitacdex/mixed-pill-bottle.mp4",
       "./static/videos/vitacdex/occlusion.mp4",
-      "./static/videos/vitacdex/overview.mp4",
+      "./static/videos/vitacdex/overview-full.mp4",
+      "./static/videos/vitacdex/random-goal-1.mp4",
+      "./static/videos/vitacdex/random-goal-2.mp4",
+      "./static/videos/vitacdex/random-goal-3.mp4",
+      "./static/videos/vitacdex/random-goal-4.mp4",
       "./static/videos/vitacdex/random-occlusion.mp4",
       "./static/videos/vitacdex/symmetrical-object.mp4",
       "./static/videos/vitacdex/transparent-object.mp4"
@@ -777,13 +893,17 @@
   ],
   "displayed_videos": [
     "static/videos/vitacdex/hero.mp4",
-    "static/videos/vitacdex/overview.mp4",
+    "static/videos/vitacdex/overview-full.mp4",
     "static/videos/vitacdex/demo-x.mp4",
     "static/videos/vitacdex/demo-z.mp4",
     "static/videos/vitacdex/comparison.mp4",
     "static/videos/vitacdex/occlusion.mp4",
     "static/videos/vitacdex/random-occlusion.mp4",
     "static/videos/vitacdex/clutter.mp4",
+    "static/videos/vitacdex/random-goal-1.mp4",
+    "static/videos/vitacdex/random-goal-2.mp4",
+    "static/videos/vitacdex/random-goal-3.mp4",
+    "static/videos/vitacdex/random-goal-4.mp4",
     "static/videos/vitacdex/mixed-ball.mp4",
     "static/videos/vitacdex/mixed-duck.mp4",
     "static/videos/vitacdex/mixed-pill-bottle.mp4",

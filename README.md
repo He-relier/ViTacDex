@@ -2,7 +2,7 @@
 
 Source files for the [ViTacDex project website](https://he-relier.github.io/ViTacDex/).
 
-**ViTacDex: Visuo-Tactile Policy Learning for Dexterous In-hand Object Reorientation** combines vision, tactile sensing and proprioception to learn goal-conditioned in-hand object reorientation through a two-stage teacher–student framework, with sim-to-real transfer to a tactile-enabled Allegro hand.
+**ViTacDex: Visuo-Tactile Policy Learning for Dexterous In-hand Object Reorientation** combines vision, tactile sensing and proprioception in a single policy for in-hand object reorientation across different random goal orientations. A two-stage teacher–student framework enables sim-to-real transfer to a tactile-enabled Allegro hand.
 
 ## Citation
 
