@@ -298,3 +298,66 @@ body {
 
 /* Preserve the full frame of the original PPT demonstrations. */
 .vitacdex-ppt-gallery video { object-fit: contain; background: #f5f5f5; }
+
+
+/* Consistent spacing throughout the retained research-page template. */
+:root {
+  --section-space: 2.5rem;
+  --heading-space: 1.5rem;
+  --media-space: 1.5rem;
+  --gallery-row-space: 2.5rem;
+}
+
+.publication-hero { margin-bottom: 0; }
+body > .section { padding-block: var(--section-space); }
+body > .section > .container > :last-child { margin-bottom: 0; }
+.section .title.is-3,
+.section .content > h2.title,
+#BibTeX .title {
+  margin-top: 0;
+  margin-bottom: var(--heading-space);
+}
+.section > .container > p { margin: 0 0 var(--media-space); }
+.section > .container > .content { margin-bottom: 0; }
+.section .content > p { margin-top: 0; margin-bottom: var(--media-space); }
+.section .content > :last-child { margin-bottom: 0; }
+.section .content > h2.title:not(:first-child) {
+  margin-top: calc(2 * var(--section-space));
+}
+
+/* Abstract and overview share a section but use the same visual section gap. */
+.section > .container > .columns.has-text-centered { margin: 0; }
+.section > .container > .columns.has-text-centered > .column { padding-block: 0; }
+.teaser { margin-top: calc(2 * var(--section-space)); }
+.teaser .hero-body { padding: 0; }
+.teaser .subtitle { margin: var(--media-space) 0 0; }
+
+.methodology-policy-figure,
+.methodology-result-figure,
+.real2sim-flow-figure { margin-bottom: var(--media-space); }
+
+/* Keep grid gutters separate from the vertical spacing between sections. */
+.simulation-task-gallery.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.75rem;
+  row-gap: var(--gallery-row-space);
+}
+.simulation-task-gallery > .column { padding: 0 0.75rem; }
+.simulation-task-gallery .content { margin: 0; }
+.simulation-task-gallery video { display: block; }
+.simulation-task-gallery .content > .title { margin: 1rem 0 0; }
+.footer { margin-top: var(--section-space); padding: 2.5rem 1.5rem; }
+.footer .columns { margin-block: 0; }
+.footer .column { padding-block: 0; }
+
+@media screen and (max-width: 768px) {
+  :root {
+    --section-space: 1.75rem;
+    --heading-space: 1.25rem;
+    --media-space: 1.25rem;
+    --gallery-row-space: 2rem;
+  }
+  .simulation-task-gallery > .column { flex: none; width: 100%; }
+  .footer { padding-block: 2rem; }
+}
